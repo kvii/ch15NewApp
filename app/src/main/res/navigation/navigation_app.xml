@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/app_navigation"
+    app:startDestination="@id/page1_dest">
+
+    <fragment
+        android:id="@+id/page1_dest"
+        android:name="com.example.ch15newapp.fragment.Page1Fragment"
+        android:label="Page1Fragment" />
+    <fragment
+        android:id="@+id/page2_dest"
+        android:name="com.example.ch15newapp.fragment.Page2Fragment"
+        android:label="Page2Fragment" />
+</navigation>

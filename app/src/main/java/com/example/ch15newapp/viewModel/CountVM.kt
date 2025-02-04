@@ -20,6 +20,12 @@ class CountVM(private val repo: CountRepo) : ViewModel() {
         _count.value = newCount
     }
 
+    fun decrement() {
+        val newCount = _count.value!! - 1
+        repo.saveCount(newCount)
+        _count.value = newCount
+    }
+
     companion object {
         val Factory = viewModelFactory {
             initializer {

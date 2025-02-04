@@ -5,24 +5,24 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/tv_page1"
+        android:id="@+id/tv_page2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:text="@string/page1"
+        android:text="@string/page2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btn_add"
+        android:id="@+id/btn_sub"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:text="@string/increase"
+        android:text="@string/decrease"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_page1" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_page2" />
 
     <TextView
         android:id="@+id/tv_count"
@@ -32,5 +32,5 @@
         android:layout_marginTop="16dp"
         android:text="@string/count"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_add" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_sub" />
 </androidx.constraintlayout.widget.ConstraintLayout>

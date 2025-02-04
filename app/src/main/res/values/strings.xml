@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">ch15NewApp</string>
     <string name="page1">第一页</string>
+    <string name="page2">第二页</string>
     <string name="increase">计数增加</string>
+    <string name="decrease">计数减少</string>
     <string name="count">计数 %d</string>
 </resources>
