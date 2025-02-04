@@ -45,4 +45,10 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    // https://mvnrepository.com/artifact/androidx.fragment/fragment-ktx
+    implementation(libs.androidx.fragment.ktx)
+    // https://mvnrepository.com/artifact/androidx.navigation/navigation-fragment-ktx
+    implementation(libs.androidx.navigation.fragment.ktx)
+    // https://mvnrepository.com/artifact/androidx.navigation/navigation-ui-ktx
+    implementation(libs.androidx.navigation.ui.ktx)
 }
